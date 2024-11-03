@@ -9,4 +9,18 @@ function getComputerChoice() {
     }
 }
 
+function getHumanChoice(){
+    let choice = prompt("Rock, paper or scissors?")
+    if(choice == "rock"){
+        return "rock"
+    } else if(choice == "paper"){
+        return "paper"
+    } else if(choice == "scissors"){
+        return "scissors"
+    } else{
+        return "You didn't choose rock, paper or scissors"
+    }
+}
+
 console.log(getComputerChoice())
+console.log(getHumanChoice())
